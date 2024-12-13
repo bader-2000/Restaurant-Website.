@@ -1,0 +1,32 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFCF8;
+}
+
+header nav div{
+    height: 100px;
+    width: 100%;
+    margin-top: 0px;
+    background-color:#FFFCF8;
+    }
+.navbar-brand{
+display: flex;
+flex-direction: row ;
+
+}
+.navbar-brand span {
+    /* font-size: 2.5rem; */
+    font-family: 'Playball', cursive !important;
+    font-weight: 700
+    
+    }
+    .navbar-brand h1 {
+        /* font-size: 2.5rem;
+        font-family: 'Playball', cursive !important;
+        font-weight: 700;
+        color: #d4a762 !important;
+        margin-block-start: 0.83em;
+    margin-block-end: 0.83em; */
+        }
