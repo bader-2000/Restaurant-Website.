@@ -1,32 +1,212 @@
-
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #FFFCF8;
 }
 
-header nav div{
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #FFFCF8 !important;
+}
+
+.navbar {
+    color: #FFFCF8;
+}
+
+header nav div {
     height: 100px;
     width: 100%;
     margin-top: 0px;
-    background-color:#FFFCF8;
-    }
-.navbar-brand{
-display: flex;
-flex-direction: row ;
+    background-color: #FFFCF8;
+}
+
+.navbar-collapse {
+
+
+    margin-left: 200px;
+    flex-basis: 100%;
+    flex-grow: 1;
+    justify-content: end;
+}
+
+.container-fluid {
+    margin-left: 150px;
+}
+
+.d-grid {
+    width: 400px;
+}
+
+div ul li a {
+    margin-left: 50px;
+    color: black;
+    font-size: 26px;
 
 }
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+
+}
+
 .navbar-brand span {
-    /* font-size: 2.5rem; */
-    font-family: 'Playball', cursive !important;
-    font-weight: 700
-    
+    font-size: 1.5rem;
+    font-family: "Playwrite HR Lijeva", serif;
+    font-weight: bold;
+}
+
+.navbar-brand h1 {
+    font-size: 1.5rem;
+    font-family: "Playwrite HR Lijeva", serif;
+    font-weight: bold;
+    color: #d4a762 !important;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .3rem;
+    padding-left: .3rem;
+    font-size: 17px;
+    color: #737270;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #d4a762;
+
+}
+
+#navbarNav ul li :hover {
+    display: block;
+    color: #d4a762;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+/* .navbar-light .navbar-nav .nav-link {
+    color: #737270;
+}  */
+
+nav .RBtn div button {
+    margin: 30px;
+    border-radius: 30px;
+    background-color: #d4a762;
+    color: black;
+    font-weight: 700;
+    border: none;
+}
+nav .RBtn div button:hover {
+
+    margin: 30px;
+    border-radius: 30px;
+    background-color: black;
+    color: #d4a762;
+    font-weight: 700;
+    border: none;
+}
+
+/*-----------------------------------------------------------------*/ 
+
+/*---------------footer---------------------------------------------*/
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+    height: 450px;
+}
+
+.sec1 .icons  {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+}
+.icons h2{
+    color: black;
+}
+.icons  h2 span{
+    color: #d4a762;
+}
+.sText {
+   color: #a19c92;
+    font-size: 16px;
+}
+.icons  li  {
+    width: 300px; 
+    list-style: none;
+    margin-top: 20px;
+}
+.iconsCul1  {
+    display:flex;
+    flex-direction: row;
+    font-size: 30px;
+    list-style: none;
+    border-radius: 50px;   
+}
+.iconsCul1 li a {
+    color: #d4a762 ;
+    border-radius: 50px;  
+    transition: transform 0.5s ease, background-color 0.5s ease;
+}
+.iconsCul1 li a:hover {
+  padding: 5px;
+  color:black;
+    background-color:#d4a762;
+    transform: translateX(20px) translateY(10px);
+}
+.iconsCul2 a   {
+ font-size: 16px;
+ color: #a19c92;
+ text-decoration-line: none;
+ transition: transform 2.0s ease, background-color 2.2s ease;
+}
+.iconsCul2 li div {
+   display: inline;
+   }
+   .iconsCul2   :hover {
+    background-color: #d4a762;
+    color: black;
+    border-radius: 50px;
+    transform: translateX(5px) translateY(5px);
     }
-    .navbar-brand h1 {
-        /* font-size: 2.5rem;
-        font-family: 'Playball', cursive !important;
-        font-weight: 700;
-        color: #d4a762 !important;
-        margin-block-start: 0.83em;
-    margin-block-end: 0.83em; */
-        }
+.iconsCul2 .IconSpecialF  {
+    padding-right: 10px;
+    font-size: 16px;
+    color:#d4a762;
+   }
+
+
+
+
+
+.sec2 {
+position: fixed;
+bottom: 0;
+height:70px ;
+width: 100%;
+padding-top: 20px;
+padding-left: 50px;
+padding-right: 50px;
+background-color:black;
+}
+
+.sec2 .rtext{
+   
+    float: left;
+}
+.sec2 a {
+    color: wheat;
+    text-decoration: none;
+}  
+.sec2 .ltext{
+    color: white;
+    float: right;
+   
+  
+}
