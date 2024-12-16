@@ -14,16 +14,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&family=Playwrite+VN+Guides&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="../StyleSheet\contactpageStyle.css">
+    <!-- <link rel="stylesheet" href="../StyleSheet\homepageStyle.css">
+    <link rel="stylesheet" href="../StyleSheet\homepageStyle.css"> -->
+
+
   <title>contactuspage</title>
 </head>
 
 <body>
 
+
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <h1>Resturant</h1><span>Food</span>
+          <h1>Taste of </h1><span>Kings</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,13 +66,61 @@
 
 
   <main> 
-    <h1>contactus</h1>
+   
+    <section class="SecC1">
+      <div class="part">
+          <div class="contanerC">
+              <h5> Get in touch </h5>
+              <h1>Contact Us For Any Queries!</h1>
+              <P>
+                  The contact form is currently inactive.
+                  Get a functional and working contact form with Ajax & PHP in a few minutes.
+                  Just copy and paste the files, add a little code and you're done. Download Now.
+              </P>
+              <form id="contactForm">
+                  <input type="text" id="name" placeholder="Your name" required>
+                  <input type="email" id="email" placeholder="Enter Your Email" required>
+                  <input class="mas" type="text" id="message" placeholder="Your message" required>
+                  <div class="btnC">
+                      <button type="submit">Submit</button>
+                  </div>
+              </form>
+              <p id="formStatus"></p>
+          </div>
+          <div class="partTow">
+              <div class="card">
+                  <a href="#"> <i class="fa-solid fa-location-dot"></i></a>
+                  <div>
+                      <h1>Address</h1>
+                      <p>123 Street, New York, USA</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <a href="#"> <i class="fa-solid fa-envelope"></i></a>
+                  <div>
+                      <h1>Mail Us</h1>
+                      <p>info@example.com</p>
+                      <p>support@example.com</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <a href="#"> <i class="fa-solid fa-phone"></i></a>
+                  <div>
+                      <h1>Telephone</h1>
+                      <p>(+012) 3456 7890 123</p>
+                      <p>(+704) 5555 0127 296</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
   </main>
   <footer>
     <section class="sec1">
       <ul class="icons">
         <li>
-          <h2><span>Cate</span>Sew</h2>
+          <h2><span>Taste of</span>Kings</h2>
           <span class="sText">There cursus massa at urnaaculis
             estieSed aliquamellus vitae ultrs
             condmentum leo massamollis its
@@ -138,7 +192,7 @@
           </ul>
         </li>
         <li>
-          <h2>Location ON MAP </h2>
+          <h2>My Location </h2>
           
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21146.106664027706!2d35.93183473718152!3d31.91857834947553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sjo!4v1734218795807!5m2!1sen!2sjo"
            width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -149,19 +203,24 @@
       </ul>
     </section>
     <section class="sec2">
-        <div class="rtext">
-            <span class="text-light"><a href="#">
-                    <i class="fas fa-copyright text-light me-2"></i>
-                    Taste of Kings Restaurant</a>, All right
-                reserved.</span>
-        </div>
-        <div class="ltext">
-            Designed By <a class="border-bottom" href="https://htmlcodex.com">Bader</a>
-        </div>
-    </section>
+      <div class="rtext">
+          <span class="text-light"><a href="#">
+                  <i class="fas fa-copyright text-light me-2"></i>
+                  Taste of Kings Restaurant</a>, All right
+              reserved.</span>
+      </div>
+      <div class="ltext">
+          Designed By <a class="border-bottom" href="https://htmlcodex.com">Bader</a>
+      </div>
+  </section>
   </footer>
 
 
+
+<script src="../javaSecript\contact.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
